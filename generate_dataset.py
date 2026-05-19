@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 FUNCTION_DECLARATION = "w(x, y, z)"
-FUNCTION_DEFINITION = "4*x + 7*y + 3*z"
+FUNCTION_DEFINITION = "(sin(x) + cos(y))/tan(z)"
 VARIABLE_BOUNDS = [(0,10), (0,10), (0,10)]
 DATASET_SIZE = 500
 LOG_ONLY = False
